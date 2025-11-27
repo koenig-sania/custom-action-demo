@@ -1,0 +1,19 @@
+{
+  "name": "project-standardizer",
+  "version": "1.0.0",
+  "description": "Custom GitHub Action to format project names.",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build index.js --license licenses.txt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0"
+  },
+  "keywords": [
+    "actions",
+    "node",
+    "setup"
+  ]
+}
