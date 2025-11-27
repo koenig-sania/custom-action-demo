@@ -1,0 +1,13 @@
+name: 'Project Standardizer'
+description: 'Takes a project name and returns a formatted summary.'
+inputs:
+  project-name:
+    description: 'The name of the project to standardize.'
+    required: true
+    default: 'CI-CD-Project'
+outputs:
+  formatted-message:
+    description: 'A standardized output message.'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
